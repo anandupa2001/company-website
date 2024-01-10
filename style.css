@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f3fe;
+}
+.content .content-link {
+  color: black;
+  text-decoration: none;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+.content {
+  margin-right: 50px;
+  display: flex;
+  gap: 50px;
+}
+.fimage {
+  margin-left: 50px;
+}
+h1 {
+  color: black;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 700;
+  margin-left: 50px;
+  padding-top: 70px;
+  margin-top: 0px;
+  width: 50%;
+}
+h4 {
+  color: black;
+  font-family: Lato;
+  font-size: 25px;
+
+  font-weight: 500;
+  margin-left: 50px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #527bb8;
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+
+  font-weight: 500;
+  margin-left: 50px;
+}
+.company-name {
+  background-color: #f2f3fe;
+  height: 530px;
+}
+.company-text {
+  width: 50%;
+}
+
+.company-pics {
+  width: 50%;
+}
+.company-about {
+  text-align: center;
+  color: black;
+  font-family: Lato;
+  font-size: 50px;
+
+  font-weight: 700;
+  margin-top: 70px;
+}
+.about-datails {
+  text-align: center;
+  color: black;
+  font-family: Lato;
+  font-size: 30px;
+
+  font-weight: 500;
+  margin-top: 50px;
+}
+.company-product {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Lato;
+  margin-top: 50px;
+}
+.service-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-box {
+  width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.E-commerce {
+  background-color: #fcf8e5;
+}
+.Digital-caddie {
+  background-color: #fef6fb;
+}
+.Eagle-eyes {
+  background-color: #e1f9f5;
+}
+.Services {
+  margin-top: 70px;
+}
+
+.mx-50 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.service-box-with-line {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.line {
+  width: 50%;
+  height: 3px;
+  background-color: black;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.client {
+  margin-top: 70px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+}
+.clients-img {
+  display: flex;
+  justify-content: space-between;
+}
