@@ -29,6 +29,9 @@ body {
   margin-left: 50px;
   padding-top: 5px;
 }
+.company-logo {
+  width: 100%;
+}
 h1 {
   font-family: Lato;
   font-size: 80px;
@@ -41,7 +44,6 @@ h1 {
 h4 {
   font-family: Lato;
   font-size: 25px;
-
   font-weight: 500;
   margin-left: 50px;
 }
@@ -97,6 +99,7 @@ h4 {
 .service-container {
   display: flex;
   justify-content: space-between;
+  overflow: auto;
 }
 
 .services-box {
@@ -155,6 +158,7 @@ h4 {
 .clients-img {
   display: flex;
   justify-content: space-between;
+  overflow: auto;
 }
 .benefit {
   font-size: 50px;
@@ -181,7 +185,6 @@ h4 {
 #our-benefits {
   display: flex;
   background-color: #f3f4fb;
-  margin-right: 50px;
 }
 .benefit-text {
   width: 50%;
@@ -245,7 +248,6 @@ span {
 }
 #footer {
   background-color: #1b3b6c;
-  height: 350px;
 }
 .social-pic {
   display: flex;
@@ -277,10 +279,10 @@ span {
 .Copyright {
   color: white;
   font-size: 12px;
-  font-weight: 200px;
+  font-weight: 200;
   padding-top: 50px;
-  padding-left: 50px;
   text-align: center;
+  padding-bottom: 10px;
 }
 #blog {
   background-color: #e7fcf9;
@@ -314,9 +316,7 @@ span {
 }
 .blog-boxes {
   display: flex;
-  justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 .blog-link {
@@ -398,4 +398,107 @@ span {
   height: 100px;
   margin-top: 10px;
   text-indent: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .content {
+    gap: 20px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .content {
+    gap: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  #contact-us {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .form {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .contact-n-c {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .contact-e-p {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .contact-help-box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .contact-form-boxes {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .footer-details {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .feedback-vectors {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #our-benefits {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 30px;
+    margin-right: 0px;
+  }
+  .navbar {
+    padding-right: 0px;
+  }
+  .icons-box {
+    width: unset;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .navbar {
+    flex-direction: column;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .fimage {
+    margin-left: 0px;
+  }
 }
