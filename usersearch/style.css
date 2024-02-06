@@ -1,15 +1,20 @@
 #textbox {
-  width: 300px;
+  width: 301px;
   height: 30px;
 }
 #search-btn {
   width: 70px;
   height: 35px;
 }
+.search-box {
+  text-align: center;
+  padding-top: 5px;
+}
 #user-box {
   border: 2px solid black;
   margin-top: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -22,8 +27,36 @@
 .boxes {
   border: 2px solid black;
   width: 300px;
-  margin-left: 10px;
   text-align: center;
   padding-top: 5px;
   background-color: bisque;
+}
+.user-image {
+  width: 300px;
+  height: 300px;
+  padding-top: 5px;
+}
+.user-box {
+  font-size: larger;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
+  background-color: bisque;
+  text-align: center;
+}
+.box {
+  margin: auto;
+  cursor: pointer;
+}
+.btn {
+  background-color: cadetblue;
+  border: none;
+  position: absolute;
+  left: 10px;
+}
+.back-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
